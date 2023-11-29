@@ -1,5 +1,6 @@
 import copy
 
+
 def gen_comb_list(list_set):
     if len(list_set) == 1:
         start_list = []
@@ -15,12 +16,13 @@ def gen_comb_list(list_set):
             start_list.append(temp_item)
     return start_list
 
+
 # print("Test gen_comb_list")
 # x = [1, 2, 3]
 # y = [4, 5]
 # z = [6, 7, 8]
 # u = [9, 10]
-# comb_list = gen_comb_list([x]) 
+# comb_list = gen_comb_list([x])
 # print(comb_list, len(comb_list), [x])
 # comb_list = gen_comb_list([x, y])
 # print(comb_list, len(comb_list), [x, y])
