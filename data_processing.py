@@ -124,18 +124,12 @@ class Table:
         with open(os.path.join(__location__, 'movies.csv'), 'w') as f:
             rows = csv.writer(f)
             # rows.writerow(['1', '2'])
-            for r in primary_attribute_value:
+            for r in primary_attribute_value and primary_attribute:
                 r: dict
                 update_value = r.values()
                 rows.writerow(update_value)
-            for r in primary_attribute:
-                r: dict
                 update_attribute = r.keys()
                 rows.writerow(update_attribute)
-
-
-
-
 
 
     def __str__(self):

@@ -17,14 +17,25 @@ def gen_comb_list(list_set):
     return start_list
 
 
-# print("Test gen_comb_list")
-# x = [1, 2, 3]
-# y = [4, 5]
-# z = [6, 7, 8]
-# u = [9, 10]
-# comb_list = gen_comb_list([x])
-# print(comb_list, len(comb_list), [x])
-# comb_list = gen_comb_list([x, y])
-# print(comb_list, len(comb_list), [x, y])
-# comb_list = gen_comb_list([x, y, z])
-# print(comb_list, len(comb_list), [x, y, z])
+print("Test gen_comb_list")
+x = [1, 2, 3]
+y = [4, 5]
+z = [6, 7, 8]
+u = [9, 10]
+comb_list = gen_comb_list([x])
+print(comb_list, len(comb_list), [x])
+comb_list = gen_comb_list([x, y])
+print(comb_list, len(comb_list), [x, y])
+comb_list = gen_comb_list([x, y, z])
+print(comb_list, len(comb_list), [x, y, z])
+
+dict = {}
+dict['Film'] = 'The Shape of Water'
+dict['Genre'] = 'Fantasy'
+dict['Lead Studio'] = 'Fox'
+dict['Audience score %'] = '72'
+dict['Profitability'] = '9.765'
+dict['Rotten Tomatoes %'] = '92'
+dict['Worldwide Gross'] = '195.3'
+dict['Year'] = '2017'
+
